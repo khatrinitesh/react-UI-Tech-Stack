@@ -1,0 +1,25 @@
+/* RippleAccordion.css */
+.accordion {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.accordion-header {
+  background-color: #6200ea;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.accordion-header:hover {
+  background-color: #3700b3;
+}
+
+.accordion-content {
+  padding: 10px;
+  background-color: #f1f1f1;
+}
